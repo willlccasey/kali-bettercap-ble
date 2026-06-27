@@ -1,36 +1,8 @@
-# kali-bettercap-ble
+# kali-bettercap-ble (deprecated)
 
-Bettercap BLE launchers — CLI menu and web UI for BLE pentest
+**This bundled repo is deprecated.** Install individual launchers instead:
 
-Standalone Kali Linux desktop launcher — install only this app without the full launcher bundle.
+- [kali-bettercap-ble-launcher](https://github.com/willlccasey/kali-bettercap-ble-launcher) — Bettercap BLE device picker + commands
+- [kali-bettercap-ble-pentest](https://github.com/willlccasey/kali-bettercap-ble-pentest) — Bettercap BLE web UI pentest
 
-## Install
-
-```bash
-git clone https://github.com/willlccasey/kali-bettercap-ble.git
-cd kali-bettercap-ble
-./install.sh
-```
-
-Or with GitHub CLI:
-
-```bash
-gh repo clone willlccasey/kali-bettercap-ble
-cd kali-bettercap-ble && ./install.sh
-```
-
-## What gets installed
-
-- Desktop icon → `~/Desktop/`
-- App menu entry → `~/.local/share/applications/`
-- Scripts → `~/bin/` and/or `~/.local/bin/`
-
-## Requirements
-
-See the launcher comments and scripts for Kali packages, hardware, and sudo setup specific to this tool.
-
-## All launchers
-
-Browse the full catalog: [kali-custom-launchers](https://github.com/willlccasey/kali-custom-launchers) (index of every standalone repo).
-
-For authorized use on systems you own or have permission to test.
+Full catalog: [kali-custom-launchers](https://github.com/willlccasey/kali-custom-launchers)
