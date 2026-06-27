@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Bettercap BLE Launcher
+Comment=Choose Bluetooth device (hci0 / Raytac-nRF / Ubertooth One) then pick from dropdown of bettercap commands and BLE actions. Full interactive shell + custom entry for all commands. Supports your Raytac + Ubertooth hardware.
+Exec=/home/will/bin/launch-bettercap-ble.sh
+TryExec=/home/will/bin/launch-bettercap-ble.sh
+Icon=bluetooth
+Terminal=false
+Categories=Network;Security;HamRadio;
+Keywords=bettercap;ble;bluetooth;ubertooth;raytac;nrf;sniffer;mitm;pentest;recon;
+StartupNotify=true
+X-GNOME-SingleWindow=false
